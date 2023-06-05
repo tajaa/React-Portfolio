@@ -59,18 +59,18 @@ const Landing = ({ setSelectedPage }) => {
             className="text-6xl font-playfair z-10 text-center
             md:text-start "
           >
-            Bobby {""}
+            Betty {""}
             <span
               className="xs:relative xs:text-deep-blue xs: font-semibold z-20
               xs:before:content-brush before:absolute before:-left-[25px]
               before:-top-[70px] before:z-[-1]"
             >
-              Digital
+              Lemons
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
             Full-stack and distributed systems engineer. I'm interested in
-            mathematics, computer science and Bitcoin.{" "}
+            mathematics, computer science.{" "}
           </p>
         </motion.div>
 
