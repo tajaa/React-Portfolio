@@ -2,7 +2,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import profileImage from "../assets/profile-image.png";
+import profileImage from "../assets/profile-image.jpg";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -59,13 +59,13 @@ const Landing = ({ setSelectedPage }) => {
             className="text-6xl font-playfair z-10 text-center
             md:text-start "
           >
-            Betty {""}
+            Beto {""}
             <span
               className="xs:relative xs:text-deep-blue xs: font-semibold z-20
               xs:before:content-brush before:absolute before:-left-[25px]
               before:-top-[70px] before:z-[-1]"
             >
-              Lemons
+              Sores
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
