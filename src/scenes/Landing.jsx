@@ -2,7 +2,7 @@ import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import profileImage from "../assets/profile-image.jpg";
+import profileImage from "../assets/seth.jpg";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
@@ -23,8 +23,8 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
-            max-w-[400px] md:max-w-[600px]"
+              className="hover:filter hover:saturate-400 transition duration-500 z-10 w-full
+            max-w-[400px] md:max-w-[600px] rounded-t-full"
               src={profileImage}
             />
           </div>
@@ -59,13 +59,13 @@ const Landing = ({ setSelectedPage }) => {
             className="text-6xl font-playfair z-10 text-center
             md:text-start "
           >
-            Beto {""}
+            Bobby {""}
             <span
               className="xs:relative xs:text-deep-blue xs: font-semibold z-20
-              xs:before:content-brush before:absolute before:-left-[25px]
+              xs:before:content-brush before:absolute before:-left-[26px]
               before:-top-[70px] before:z-[-1]"
             >
-              Sores
+              Stone
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
